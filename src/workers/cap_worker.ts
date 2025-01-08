@@ -58,9 +58,9 @@ export const crawlerCaps = async function* (
         return 0;
       });
 
-      if (auxChapters.length > 20) {
-        return auxChapters.slice(0, 20);
-      }
+      // if (auxChapters.length > 20) {
+      //   return auxChapters.slice(0, 20);
+      // }
 
       return auxChapters;
     }
